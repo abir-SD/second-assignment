@@ -219,3 +219,71 @@ nav li a {
     align-items: center;
     justify-content: center;
 }
+
+.hide{
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------------------------ 
+                                        Responsive website
+--------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 576px) {
+    .container-4{
+        margin-top: 600px;
+    }
+    .box-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .normal{
+        margin: 0;
+        width: 250px;
+        height: auto;
+    }
+    .container-3{
+        width: 300px;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 900px;
+    }
+    .container-2{
+        grid-template-columns: 1fr;
+        /* margin-bottom: 300px; */
+    }
+    .main-text{
+        width: 300px;
+        height: auto;
+    }
+    .container-2-image-btn img{
+        width: 300px;
+        height: auto;
+        /* margin-bottom: 5500px; */
+    }
+   .container-1{
+    margin-left: 0;
+   }
+   .images{
+    width: 300px;
+    margin-bottom: 600px;
+   }
+   nav{
+    flex-direction: column;
+   }
+   nav ul{
+    flex-direction: column;
+   }
+   .middle-text{
+    width: 300px;
+    height: auto;
+    margin-left: 0;
+   }
+   .banner img{
+    width: 300px;
+    height: auto;
+    margin-left: 0;
+   }
+   .banner{
+    margin-left: 0;
+   }
+}
